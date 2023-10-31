@@ -7,7 +7,6 @@ class script(object):
 
 ○ 𝑨𝑽𝑨𝑰𝑳𝑨𝑩𝑳𝑬 𝑪𝑶𝑴𝑴𝑨𝑵𝑫𝑺
      
- /alive - Check I'm Alive..
  /info - User info
  /ping - To get your ping
  /id - User id
@@ -18,24 +17,24 @@ class script(object):
 
 𝖣𝗈𝗇𝗍 𝖲𝗉𝖺𝗆 𝖬𝖾...🤒
 
-<spoiler>🔋 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ -<a href='https://t.me/My_Name_is_developer'>xᴀʏᴏɴᴀʀᴀ</a></spoiler>"""
+<spoiler>🔋 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ -<a href='https://t.me/xayoonara'>xᴀʏᴏɴᴀʀᴀ</a></spoiler>"""
 
     ABOUT_TXT = """<b>○ 𝖬𝗒 𝖭𝖺𝗆𝖾: {}
-○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/My_Name_is_developer'>ABHISHEK</a>
+○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/xayoonara'>𝐗𝐀𝐘𝐎𝐍𝐀𝐑𝐀</a>
 ○ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : 𝖯𝗒𝗍𝗁𝗈𝗇 𝟥 
 ○ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : 𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆 𝖺𝗌𝗒𝗇𝖼𝗂𝗈 𝟢.𝟣𝟩.𝟣 
 ○ 𝖲𝖾𝗋𝗏𝖾𝗋 : Contabo
 ○ 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾 : <a href='https://www.mongodb.com'>𝖬𝗈𝗇𝗀𝗈𝖣𝖡 𝖥𝗋𝖾𝖾 𝖳𝗂𝖾𝗋</a>
 ○ 𝖡𝗎𝗂𝗅𝖽 𝖲𝗍𝖺𝗍𝗎𝗌 : v1.0.1 [BeTa]
-○ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉 : <a href='https://t.me/AlAS_NOW'>𝑻𝑨𝑷 𝑯𝑬𝑹𝑬</a>"""
+○ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉 : <a href='https://t.me/JTZONE_SUPPORT'>𝑻𝑨𝑷 𝑯𝑬𝑹𝑬</a>"""
 
     SOURCE_TXT = """<b>NOTE:</b>
-<spoiler>𝑺𝒑𝒆𝒄𝒊𝒂𝒍 𝑻𝒉𝒂𝒏𝒌𝒔 𝒕𝒐 ALAS 𝑫𝒆𝒗𝒔 & 𝑪𝒍𝒐𝒏𝒆𝒓𝒔 𝒇𝒐𝒓 𝒕𝒉𝒆 𝒄𝒐𝒅𝒆𝒔.</spoiler>
+<spoiler>𝑺𝒑𝒆𝒄𝒊𝒂𝒍 𝑻𝒉𝒂𝒏𝒌𝒔 𝒕𝒐 𝐗𝐀𝐘𝐎𝐍𝐀𝐑𝐀 𝑫𝒆𝒗𝒔 & 𝑪𝒍𝒐𝒏𝒆𝒓𝒔 𝒇𝒐𝒓 𝒕𝒉𝒆 𝒄𝒐𝒅𝒆𝒔.</spoiler>
 <spoiler>𝐃𝐄𝐕 🧑‍💻</spoiler>
 
-- <a href=https://t.me/My_Name_is_developer><spoiler><b><u>ABHISHEK</u></b></spoiler></a>
+- <a href=https://t.me/xayoonara><spoiler><b><u>𝐗𝐀𝐘𝐎𝐍𝐀𝐑𝐀</u></b></spoiler></a>
 
-- Source - <a href=https://t.me/My_Name_is_developer><spoiler><b><u>ABHISHEK</u></b></spoiler></a>""" #please don't change repo link give credit :)
+- Source - <a href=https://t.me/xayoonara><spoiler><b><u>𝐗𝐀𝐘𝐎𝐍𝐀𝐑𝐀</u></b></spoiler></a>""" #please don't change repo link give credit :)
 
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
 - ꜰɪʟᴛᴇʀ ɪꜱ ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ꜱᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇꜱ ꜰᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ ɪ ᴡɪʟʟ ʀᴇꜱᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪꜱ ꜰᴏᴜɴᴅ ɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ
@@ -174,9 +173,9 @@ Request Again"""
 ‼️𝗗𝗼𝗻𝘁 𝗮𝗱𝗱 𝘄𝗼𝗿𝗱𝘀 & 𝘀𝘆𝗺𝗯𝗼𝗹𝘀 𝗹𝗶𝗸𝗲 , . -  send link movie series 𝗲𝘁𝗰‼️"""
 
     OWNER_INFO = """
-○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/My_Name_is_developer'>ABHISHEK</a>
+○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/xayoonara'>𝐗𝐀𝐘𝐎𝐍𝐀𝐑𝐀</a>
 
-○ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉 : <a href='https://t.me/ALAS_NOW'>𝖳𝖺𝗉 𝖧𝖾𝗋𝖾</a>
+○ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉 : <a href='https://t.me/JTZONE_SUPPORT'>𝖳𝖺𝗉 𝖧𝖾𝗋𝖾</a>
 """
 
     NORSLTS = """
