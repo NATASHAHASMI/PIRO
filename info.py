@@ -6,6 +6,7 @@ from collections import defaultdict
 from typing import Dict, List, Union
 from pyrogram import Client
 from time import time
+from Script import script
 
 id_pattern = re.compile(r'^.\d+$')
 def is_enabled(value, default):
@@ -66,7 +67,7 @@ IMDB = is_enabled((environ.get('IMDB', "False")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", '("CUSTOM_FILE_CAPTION", '<a href="https://t.me/jtzonedisscison">{file_name}</a> \n\n <b>☞</b> [𝙅𝙏𝙕𝙊𝙉𝙀](https://t.me/+K0j5JK0rUvc2N2I1)\n <b>☞</b> [𝘼𝘿𝙐𝙇𝙏 🔞](https://t.me/+wNjhglbu6ZIxMTQ1)')
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", '("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", '')
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", '🏷 𝖳𝗂𝗍𝗅𝖾: <a href={url}>{title}</a> \n🔮 𝖸𝖾𝖺𝗋: {year} \n⭐️ 𝖱𝖺𝗍𝗂𝗇𝗀𝗌: {rating}/ 10  \n🎭 𝖦𝖾𝗇𝖾𝗋𝗌: {genres} \n\n🎊 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 [[𝖯𝖨𝖱𝖮]](t.me/myfliix)')
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
