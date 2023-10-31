@@ -187,11 +187,8 @@ Name <b>: {}</b>
 
 Message <b>: {}</b>"""
 
-    CAPTION = """
-<b>📂<a href="https://telegram.me/ALAS_NOW"><b><i>{file_name}</i></b></a>\n━━━━━━━━━━━━━━━━━━━━━━━\n
-
-❤️‍🔥 </b>Join</b> [ALAS](https://t.me/ALAS_NOW)  
-"""
+    CAPTION = """<b>📂<a href="https://t.me/jtzonedisscison"><b><i>{file_name}</i></b></a>\n━━━━━━━━━━━━━━━━━━━━━━━\n
+ <b>☞</b> [𝙅𝙏𝙕𝙊𝙉𝙀](https://t.me/+K0j5JK0rUvc2N2I1)\n <b>☞</b> [𝘼𝘿𝙐𝙇𝙏 🔞](https://t.me/+wNjhglbu6ZIxMTQ1)"""
 
     IMDB_TEMPLATE_TXT = """
 🏷 𝖳𝗂𝗍𝗅𝖾: <a href={url}>{title}</a> 
