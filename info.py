@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '20902630'))
 API_HASH = environ.get('API_HASH', 'a6633dbc887c54c10af185ee8bfaa965')
-BOT_TOKEN = environ.get('BOT_TOKEN', '5845533149:AAFKKCXz7OWHYQL8NqAf99XDRjLnIUX_fVs')
+BOT_TOKEN = environ.get('BOT_TOKEN', '')
 PORT = environ.get("PORT", "8080")
 
 # Bot settings
@@ -36,22 +36,22 @@ MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/ab19cc84f7ad5fc0
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/2a888a370f479f4338f7c.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1843754190').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL')
+auth_channel = environ.get('AUTH_CHANNEL','-1001896912811')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID')
+support_chat_id = environ.get('SUPPORT_CHAT_ID',)
 reqst_channel = environ.get('REQST_CHANNEL_ID')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
-SUPPORT_CHAT_ID = int(environ.get("SUPPORT_CHAT_ID", "-1001856203003"))
+SUPPORT_CHAT_ID = int(environ.get("SUPPORT_CHAT_ID", "-1001885771153"))
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://eren:eren@cluster0.yxuwg4r.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "eren")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'FILES')
 
@@ -59,14 +59,15 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'FILES')
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', " -1001850627959"))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'myfliix_2')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', "  -1001859057505"))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+NwkkJ6e9r4hjMGJl')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", '📂 <b>File Name</b>: <code>{file_name}</code> \n\n❤️‍🔥 <b>Join</b> [𝗕𝗟𝗔𝗦𝗧𝗘𝗥 𝗟𝗜𝗡𝗞𝗭](https://t.me/blaster_linkz)')
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", '""" <b>📂<a href="https://t.me/jtzonedisscison"><b><i>{file_name}</i></b></a>\n━━━━━━━━━━━━━━━━━━━━━━━\n
+ <b>☞</b> [𝙅𝙏𝙕𝙊𝙉𝙀](https://t.me/+K0j5JK0rUvc2N2I1)\n <b>☞</b> [𝘼𝘿𝙐𝙇𝙏 🔞](https://t.me/+wNjhglbu6ZIxMTQ1)""" ')
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", '')
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", '🏷 𝖳𝗂𝗍𝗅𝖾: <a href={url}>{title}</a> \n🔮 𝖸𝖾𝖺𝗋: {year} \n⭐️ 𝖱𝖺𝗍𝗂𝗇𝗀𝗌: {rating}/ 10  \n🎭 𝖦𝖾𝗇𝖾𝗋𝗌: {genres} \n\n🎊 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 [[𝖯𝖨𝖱𝖮]](t.me/myfliix)')
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
