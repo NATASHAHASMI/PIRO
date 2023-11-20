@@ -1,7 +1,7 @@
 class script(object):
     START_TXT = """<b><u>ʜᴇʏ 😎. {} ɪ ᴀᴍ ᴘᴏᴡᴇʀꜰᴜʟʟ ᴍᴏᴠɪᴇꜱ & ꜱᴇʀɪᴇꜱ ᴘʀᴏᴠɪᴅᴇʀ ʙᴏᴛ ᴊᴜꜱᴛ ꜱᴇɴᴅ ᴍᴇ ᴀɴʏ ᴍᴏᴠɪᴇꜱ & ꜱᴇʀɪᴇꜱ ɴᴀᴍᴇ.</u></b>
 
-<spoiler><b><u>🔋 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ - <a href='https://t.me/xayoonara'>xᴀʏᴏɴᴀʀᴀ</a></u></b></spoiler>"""
+<spoiler><b><u>🔋 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ - <a href='https://t.me/Xayonara_Contact_Bot'>xᴀʏᴏɴᴀʀᴀ</a></u></b></spoiler>"""
 
     HELP_TXT = """🙋🏻‍♂️   <b><u>𝖧𝖾𝗅𝗅𝗈𝗈𝗈</u></b>  {} 🤓
 
@@ -17,10 +17,10 @@ class script(object):
 
 𝖣𝗈𝗇𝗍 𝖲𝗉𝖺𝗆 𝖬𝖾...🤒
 
-<spoiler>🔋 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ -<a href='https://t.me/xayoonara'>xᴀʏᴏɴᴀʀᴀ</a></spoiler>"""
+<spoiler>🔋 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ -<a href='https://t.me/Xayonara_Contact_Bot'>xᴀʏᴏɴᴀʀᴀ</a></spoiler>"""
 
     ABOUT_TXT = """<b>○ 𝖬𝗒 𝖭𝖺𝗆𝖾: {}
-○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/xayoonara'>𝐗𝐀𝐘𝐎𝐍𝐀𝐑𝐀</a>
+○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/Xayonara_Contact_Bot'>𝐗𝐀𝐘𝐎𝐍𝐀𝐑𝐀</a>
 ○ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : 𝖯𝗒𝗍𝗁𝗈𝗇 𝟥 
 ○ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : 𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆 𝖺𝗌𝗒𝗇𝖼𝗂𝗈 𝟢.𝟣𝟩.𝟣 
 ○ 𝖲𝖾𝗋𝗏𝖾𝗋 : Contabo
@@ -32,9 +32,9 @@ class script(object):
 <spoiler>𝑺𝒑𝒆𝒄𝒊𝒂𝒍 𝑻𝒉𝒂𝒏𝒌𝒔 𝒕𝒐 𝐗𝐀𝐘𝐎𝐍𝐀𝐑𝐀 𝑫𝒆𝒗𝒔 & 𝑪𝒍𝒐𝒏𝒆𝒓𝒔 𝒇𝒐𝒓 𝒕𝒉𝒆 𝒄𝒐𝒅𝒆𝒔.</spoiler>
 <spoiler>𝐃𝐄𝐕 🧑‍💻</spoiler>
 
-- <a href=https://t.me/xayoonara><spoiler><b><u>𝐗𝐀𝐘𝐎𝐍𝐀𝐑𝐀</u></b></spoiler></a>
+- <a href=https://t.me/Xayonara_Contact_Bot><spoiler><b><u>𝐗𝐀𝐘𝐎𝐍𝐀𝐑𝐀</u></b></spoiler></a>
 
-- Source - <a href=https://t.me/xayoonara><spoiler><b><u>𝐗𝐀𝐘𝐎𝐍𝐀𝐑𝐀</u></b></spoiler></a>""" #please don't change repo link give credit :)
+- Source - <a href=https://t.me/Xayonara_Contact_Bot><spoiler><b><u>𝐗𝐀𝐘𝐎𝐍𝐀𝐑𝐀</u></b></spoiler></a>""" #please don't change repo link give credit :)
 
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
 - ꜰɪʟᴛᴇʀ ɪꜱ ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ꜱᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇꜱ ꜰᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ ɪ ᴡɪʟʟ ʀᴇꜱᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪꜱ ꜰᴏᴜɴᴅ ɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ
@@ -120,7 +120,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 𝖳𝗈𝗍𝖺𝗅 𝖢𝗁𝖺𝗍𝗌: <code>{}</code>
 𝖴𝗌𝖾𝖽 𝖲𝗍𝗈𝗋𝖺𝗀𝖾: <code>{}</code>
 
-<spoiler><b><u>🔋 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ - <a href='https://t.me/xayoonara'>xᴀʏᴏɴᴀʀᴀ</a></u></b></spoiler>"""
+<spoiler><b><u>🔋 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ - <a href='https://t.me/Xayonara_Contact_Bot'>xᴀʏᴏɴᴀʀᴀ</a></u></b></spoiler>"""
 
     LOG_TEXT_G = """#NewGroup
 𝖦𝗋𝗈𝗎𝗉 = {}(<code>{}</code>)
