@@ -173,7 +173,7 @@ Request Again"""
 ‼️𝗗𝗼𝗻𝘁 𝗮𝗱𝗱 𝘄𝗼𝗿𝗱𝘀 & 𝘀𝘆𝗺𝗯𝗼𝗹𝘀 𝗹𝗶𝗸𝗲 , . -  send link movie series 𝗲𝘁𝗰‼️"""
 
     OWNER_INFO = """
-○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/xayoonara'>𝐗𝐀𝐘𝐎𝐍𝐀𝐑𝐀</a>
+○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/xayonara_contact_bot'>𝐗𝐀𝐘𝐎𝐍𝐀𝐑𝐀</a>
 
 ○ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉 : <a href='https://t.me/JTZONE_SUPPORT'>𝖳𝖺𝗉 𝖧𝖾𝗋𝖾</a>
 """
@@ -187,7 +187,7 @@ Name <b>: {}</b>
 
 Message <b>: {}</b>"""
 
-    CAPTION = """<b>📂<a href="https://t.me/jtzonedisscison"><b><i>{file_name}</i></b></a>\n━━━━━━━━━━━━━━━━━━━━━━━\n
+    CAPTION = """<b><b>📂@MOVIE_JTZONE</b><a href="https://t.me/MOVIE_JTZONE"><b><i>{file_name}</i></b></a>\n━━━━━━━━━━━━━━━━━━━━━━━\n
  <b>☞</b> [𝙅𝙏𝙕𝙊𝙉𝙀](https://t.me/+K0j5JK0rUvc2N2I1)\n <b>☞</b> [𝘼𝘿𝙐𝙇𝙏 🔞](https://t.me/+wNjhglbu6ZIxMTQ1)"""
 
     IMDB_TEMPLATE_TXT = """
@@ -230,4 +230,4 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 <b><u>||𝑩𝑶𝑻 𝑹𝑬𝑺𝑻𝑨𝑹𝑻𝑬𝑫 😈||</u></b>"""
 
     LOGO = """
-ALAS BOTS"""
+⚡❤️‍🔥⚡❤️‍🔥"""
