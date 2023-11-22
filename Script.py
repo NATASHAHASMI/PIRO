@@ -187,7 +187,7 @@ Name <b>: {}</b>
 
 Message <b>: {}</b>"""
 
-    CAPTION = """<b><b>📂@MOVIE_JTZONE</b><a href="https://t.me/MOVIE_JTZONE"><b><i>{file_name}</i></b></a>\n━━━━━━━━━━━━━━━━━━━━━━━\n
+    CAPTION = """<b><b>@MOVIE_JTZONE</b><a href="https://t.me/JTZONE_MOVIE"><b><i>{file_name}</i></b></a>\n━━━━━━━━━━━━━━━━━━━━━━━\n
  <b>☞</b> [𝙅𝙏𝙕𝙊𝙉𝙀](https://t.me/+K0j5JK0rUvc2N2I1)\n <b>☞</b> [𝘼𝘿𝙐𝙇𝙏 🔞](https://t.me/+wNjhglbu6ZIxMTQ1)"""
 
     IMDB_TEMPLATE_TXT = """
